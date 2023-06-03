@@ -4,5 +4,5 @@ def call(Map param = [:]) {
     ]
     config << param
 
-
+    deployFlow(config)
 }
