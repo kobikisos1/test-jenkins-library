@@ -4,8 +4,5 @@ def call(Map param = [:]) {
     ]
     config << param
 
-    timestamps {
-        print("started")
-        print(config)
-    }
+
 }
